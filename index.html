@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Угадай число</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Игра «Угадай число»</h1>
+        <p>Я загадал число от 1 до 100. Попробуйте угадать!</p>
+        
+        <div id="nameSection">
+            <label for="playerName">Введите ваше имя:</label>
+            <input type="text" id="playerName" placeholder="Имя">
+            <button id="startGameBtn">Начать игру</button>
+        </div>
+        
+        <!-- Игровое поле (скрыто до начала игры) -->
+        <div id="gameSection" style="display: none;">
+            <div class="game-info">
+                <p>Игрок: <span id="currentPlayerName"></span></p>
+                <p>Попыток: <span id="attemptsCount">0</span></p>
+            </div>
+            
+            <div class="guess-area">
+                <input type="number" id="guessInput" placeholder="Введите число от 1 до 100">
+                <button id="checkBtn">Проверить</button>
+                <button id="newGameBtn">Новая игра</button>
+            </div>
+            
+            <div id="message" class="message"></div>
+        </div>
+        
+        <div class="leaderboard-section">
+            <h2>Таблица рекордов</h2>
+            <div id="leaderboard"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
