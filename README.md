@@ -21,18 +21,19 @@
 - localStorage
 
 ## Запуск проекта
+**Способ 1:
 1. Скачайте все файлы в одну папку
 2. Откройте файл `index.html` в любом современном браузере
+
+**Способ 2. Выполните команды в терминале:
+- 'git clone https://github.com/kochurakirr1-png/game-ugadai-chislo.git'
+- 'cd game-ugadai-chislo'
+- 'start index.html' (windows) или 'open index.html' (macOS)
 
 ## Автор
 Кочура Кирилл Иванович
 Группа 05-24 ИСИП.ОФ.09
 Хекслет колледж, 2026
 
-## Установка и запуск
 
-Склонируйте репозиторий:
 
-```bash
-git clone https://github.com/kochurakirr1-png/game-ugadai-chislo.git
-cd game-ugadai-chislo
