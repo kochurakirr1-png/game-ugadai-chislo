@@ -28,3 +28,11 @@
 Кочура Кирилл Иванович
 Группа 05-24 ИСИП.ОФ.09
 Хекслет колледж, 2026
+
+## Установка и запуск
+
+Склонируйте репозиторий:
+
+```bash
+git clone https://github.com/kochurakirr1-png/game-ugadai-chislo.git
+cd game-ugadai-chislo
